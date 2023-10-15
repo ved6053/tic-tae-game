@@ -36,7 +36,7 @@ def fill_an_empty_cell_on_board(player):
             print('Cell occupied on Board, please try again')
         else:
             board.player_sticker = player.sticker
-            board.fill_choice(row, pos)
+            board.fill_sticker(row, pos)
             break
     board.display()
     return (board.rows.index(row), board.cols.index(pos)) 

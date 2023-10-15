@@ -28,8 +28,8 @@ def display():
         print(' --------')
 def select_pos():
     return player_input.select_board_pos(matrix, rows, cols)
-def fill_choice(row, pos):
-    matrix[row][pos] = player_input.enter_choice(player_sticker)
+def fill_sticker(row, pos):
+    matrix[row][pos] = player_input.enter_sticker(player_sticker)
 
 def is_winner(row, pos):
     if is_center(row, pos):

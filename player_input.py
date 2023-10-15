@@ -9,7 +9,7 @@ def select_board_pos(matrix, rows, cols):
             return (row, pos)
     
 
-def enter_choice(player_sticker):
+def enter_sticker(player_sticker):
     while True:
         value = input('Enter your choice(0/X): ')
         if value not in player_sticker:
